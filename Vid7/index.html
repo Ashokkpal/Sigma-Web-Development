@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form action="/submit" method="post">
+        <div><!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+
+        <div><!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <div><!-- Radio buttons for gender -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label>Passing Year:</label>
+            <input type="radio" id="2024" name="Passing Year" value="2024">
+            <label for="2024">2024</label>
+            <input type="radio" id="2025" name="Passing Year" value="2025">
+            <label for="2025">2025</label>
+            <input type="radio" id="2026" name="Passing Year" value="2026">
+            <label for="2026">2026</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Make me smile" name="Make me smile" value="yes">
+            <label for="Make me smile">Make me smile Everyone</label>
+        </div>
+        <div>
+            <label for="Coment">Enter your comment</label>
+            <textarea id="Coment" name="comment" rows="4" cols="50">Enter your comment here...
+            </textarea>
+        </div>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+        <div>
+            <select name="feauture with">
+                <option value="Gate">Gate</option>
+                <option value="Off Campus Job">Off Campus Job </option>
+                <option value="On Campus Job">On Campus Job</option>
+          </select>
+        </div>
+    </form>
+<link rel="stylesheet" href="style.css">
+<link rel="import" href="one.html">
+<a href="http://ashokkpal.github.io">My web</a>
+<br>
+<img width="400" src="image.jpg" alt="Train image">
+</body>
+
+</html>
