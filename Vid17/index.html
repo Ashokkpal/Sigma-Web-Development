@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors MasterClass</title>
+    <link rel="shortcut icon" href="favicon.jpg" type="logo">
+    <style>
+        /* Element Selecter */
+        /* div{
+            background-color: red;
+        } */
+        /* Class Selecter */
+        .green{
+            background-color: green;
+        }
+        /* Id Selecter */
+        #yellow{
+            background-color: yellow;
+        }
+        /* Child Selecter */
+        div>p{
+            color: blue;
+            background-color: rgb(121, 163, 49);
+        }
+       /* Desendent Selecter */
+        div p{
+            color: blue;
+            background-color: rgb(121, 163, 49);
+        }
+        /* Universal Selecter */
+        *{margin: 0;
+            padding: 0;
+        }
+        /* pseudo Selecter */
+        a:active{
+            background-color: yellow;
+        }
+        a:hover{
+            background-color: red;
+        }
+        a:link{
+            color: black;
+        }
+        p:first-child{
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>Fast Child</p>
+        <p>Second Child</p>
+    </main>
+    <div>hi am ashok
+
+        <article><p>Hi am pragraph under div(Desendent Selecter)</p></article>
+    </div>
+    <div class="green">hi another ashok
+        <p>Hi am pragraph under div(child Selecter)</p>
+    </div>
+    <div id="yellow">hi another one more ashok</div>
+    <div>
+        <a href="https://www.google.com/">Google</a>
+        <a href="http://ashokkpal.github.io/">Ashok</a>
+    </div>
+
+</body>
+</html>
